@@ -34,11 +34,6 @@ def save_audio_as_mp3(audio_data, sample_rate, filename):
 
 if __name__ == "__main__":
     load_dotenv()
-    HUME_API_KEY = os.getenv("HUME_API_KEY")
-
-    if not HUME_API_KEY:
-        raise ValueError("HUME_API_KEY environment variable not set")
-
     duration = 10  # Duration in seconds
     audio_data, sample_rate = record_audio(duration)
     save_audio_as_mp3(audio_data, sample_rate, 'recording.mp3')
