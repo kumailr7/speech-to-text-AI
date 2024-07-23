@@ -10,6 +10,10 @@ This project is a Python-based application that utilizes advanced AI models for 
 
 -- *Integration with Google Gemini:* Uses Google Gemini for AI-driven responses based on the user's speech transcript.
 
+-- *Integration with Streamlit:* It has now a UI based Interaction using streamlit UI.
+
+-- *Increase the duration of Recording audio:* Now user can increase the durations of recording , it will be helpful in recording long audio file. 
+
 
 ## Dependencies
 
@@ -24,6 +28,8 @@ This project is a Python-based application that utilizes advanced AI models for 
 `google-generativeai`
 
 `python-dotenv`
+
+`streamlit`
 
 ## Setup
 
@@ -65,7 +71,7 @@ GOOGLE_GEMINI_API_KEY=your_google_gemini_api_key_here
 6. Run the application:
 
 ```
-python speech_to_text.py
+streamlit run streamlit.py
 ```
 
 ## Usage
@@ -102,6 +108,8 @@ Here's a brief example of how to use the application:
 
 -- The application displays the AI response.
 
+-- Below you can see an image of the application.
 
+![alt text](<Screenshot from 2024-07-24 01-04-58.png>)
 
 

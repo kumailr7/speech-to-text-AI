@@ -1,1 +1,1 @@
- Can you tell me about how to deploy an EKS cluster using platform in AWS?
+ Can you tell me about LLM and how to deploy LLM in AWS?
