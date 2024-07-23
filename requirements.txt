@@ -5,3 +5,5 @@ pydub
 yt-dlp
 python-dotenv
 google-generativeai
+streamlit
+portaudio
